@@ -86,6 +86,19 @@ body {
   line-height: inherit
 }
 
+.button-link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.button-link:hover {
+  background-color: #0056b3;
+}
+
 hr {
   height: 0;
   color: inherit;
@@ -173,6 +186,7 @@ select {
 [type=button],
 [type=reset],
 [type=submit],
+
 button {
   -webkit-appearance: button;
   background-color: transparent;
